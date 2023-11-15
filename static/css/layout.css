@@ -1,0 +1,24 @@
+/* color: rgb(5, 106, 200); */
+
+#navbar {
+    background-color: rgb(5, 106, 200) !important;
+}
+
+#logo-text{
+    color: white !important;
+    font-weight: 600;
+}
+
+
+#camera {
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+
+#btn-detener{
+    float: right;
+    margin-top: 1rem;
+}

@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}Diagnostico{% endblock %}
+{% block content %}
+
+
+
+ <p>En esta área se lleva a cabo el diagnóstico, donde contamos con una cámara especializada diseñada para detectar los movimientos y características de los ojos del paciente. Esta tecnología permite obtener datos precisos y relevantes para el análisis médico. Al posicionarce frente a la cámara, asegúrate de que el paciente este cómodo y con los ojos visibles para que podamos recopilar la información necesaria de manera efectiva.</p>
+ <img id="camera" src="{{ url_for('video_feed') }}" alt="RECARGAR PAGINA" width="100%"> 
+
+        <a href="/" id="btn-detener" class="btn btn-primary">Detener</a>
+
+{% endblock %}

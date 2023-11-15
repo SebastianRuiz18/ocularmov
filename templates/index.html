@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% block title %}Inicio{% endblock %}
+{% block content %}
+
+
+
+ <p>Para comenzar con el diagnóstico, presiona el botón de inicio. Para iniciar el proceso de evaluación y obtener la información necesaria. Una vez que hayas presionado el botón, el sistema se pondrá en marcha, recopilando datos relevantes para llevar a cabo un diagnóstico preciso.</p>
+    <!--> <video id="camera-stream" autoplay="false"></video><!-->
+    <form action="{{ url_for('video_feed') }}">
+        <a id="btn-inicio" class="btn btn-primary" href="/detect_eyes">Iniciar</a>
+    </form>
+{% endblock %}
