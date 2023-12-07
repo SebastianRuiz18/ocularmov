@@ -1,0 +1,14 @@
+# .gitignore
+
+# Virtual environment
+env/
+
+# Compiled Python files
+__pycache__/
+
+# Compiled C extensions
+*.so
+
+# Miscellaneous
+*.DS_Store
+.env
